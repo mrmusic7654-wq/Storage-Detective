@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- View IDs -->
+    <item name="storage_chart" type="id"/>
+    <item name="timeline_graph" type="id"/>
+    <item name="apps_list" type="id"/>
+    <item name="cleaner_suggestions" type="id"/>
+    <item name="settings_container" type="id"/>
+    
+    <!-- Button IDs -->
+    <item name="btn_scan" type="id"/>
+    <item name="btn_clean" type="id"/>
+    <item name="btn_backup" type="id"/>
+    <item name="btn_sync" type="id"/>
+    <item name="btn_refresh" type="id"/>
+    <item name="btn_cancel" type="id"/>
+    <item name="btn_undo" type="id"/>
+    <item name="btn_retry" type="id"/>
+    
+    <!-- Menu IDs -->
+    <item name="menu_dashboard" type="id"/>
+    <item name="menu_apps" type="id"/>
+    <item name="menu_timeline" type="id"/>
+    <item name="menu_cleaner" type="id"/>
+    <item name="menu_settings" type="id"/>
+    <item name="menu_family" type="id"/>
+    <item name="menu_game" type="id"/>
+    
+    <!-- Action IDs -->
+    <item name="action_search" type="id"/>
+    <item name="action_filter" type="id"/>
+    <item name="action_sort" type="id"/>
+    <item name="action_share" type="id"/>
+    <item name="action_export" type="id"/>
+    <item name="action_import" type="id"/>
+    <item name="action_help" type="id"/>
+    <item name="action_feedback" type="id"/>
+    
+    <!-- Dialog IDs -->
+    <item name="dialog_permission" type="id"/>
+    <item name="dialog_confirmation" type="id"/>
+    <item name="dialog_progress" type="id"/>
+    <item name="dialog_info" type="id"/>
+    <item name="dialog_warning" type="id"/>
+    <item name="dialog_error" type="id"/>
+    
+    <!-- Fragment Container IDs -->
+    <item name="fragment_container" type="id"/>
+    <item name="nav_host_fragment" type="id"/>
+    <item name="content_frame" type="id"/>
+    
+    <!-- RecyclerView IDs -->
+    <item name="recycler_view" type="id"/>
+    <item name="apps_recycler" type="id"/>
+    <item name="timeline_recycler" type="id"/>
+    <item name="suggestions_recycler" type="id"/>
+    
+    <!-- Text Input IDs -->
+    <item name="input_search" type="id"/>
+    <item name="input_username" type="id"/>
+    <item name="input_email" type="id"/>
+    <item name="input_feedback" type="id"/>
+    
+    <!-- Checkbox IDs -->
+    <item name="checkbox_select_all" type="id"/>
+    <item name="checkbox_keep_one" type="id"/>
+    <item name="checkbox_confirm" type="id"/>
+    
+    <!-- Progress IDs -->
+    <item name="progress_bar" type="id"/>
+    <item name="progress_text" type="id"/>
+    <item name="progress_circular" type="id"/>
+    
+    <!-- Image IDs -->
+    <item name="image_icon" type="id"/>
+    <item name="image_avatar" type="id"/>
+    <item name="image_preview" type="id"/>
+    <item name="image_thumbnail" type="id"/>
+    
+    <!-- Text IDs -->
+    <item name="text_title" type="id"/>
+    <item name="text_subtitle" type="id"/>
+    <item name="text_description" type="id"/>
+    <item name="text_value" type="id"/>
+    <item name="text_label" type="id"/>
+    <item name="text_error" type="id"/>
+    <item name="text_empty" type="id"/>
+    
+    <!-- Layout IDs -->
+    <item name="layout_root" type="id"/>
+    <item name="layout_header" type="id"/>
+    <item name="layout_footer" type="id"/>
+    <item name="layout_content" type="id"/>
+    <item name="layout_loading" type="id"/>
+    <item name="layout_error" type="id"/>
+    <item name="layout_empty" type="id"/>
+    
+    <!-- Card IDs -->
+    <item name="card_storage" type="id"/>
+    <item name="card_apps" type="id"/>
+    <item name="card_timeline" type="id"/>
+    <item name="card_cleaner" type="id"/>
+    <item name="card_stats" type="id"/>
+    <item name="card_suggestion" type="id"/>
+    
+    <!-- Tab IDs -->
+    <item name="tab_dashboard" type="id"/>
+    <item name="tab_apps" type="id"/>
+    <item name="tab_timeline" type="id"/>
+    <item name="tab_cleaner" type="id"/>
+    <item name="tab_settings" type="id"/>
+    
+    <!-- Bottom Navigation IDs -->
+    <item name="bottom_navigation" type="id"/>
+    <item name="nav_dashboard" type="id"/>
+    <item name="nav_apps" type="id"/>
+    <item name="nav_timeline" type="id"/>
+    <item name="nav_cleaner" type="id"/>
+    
+    <!-- Toolbar IDs -->
+    <item name="toolbar" type="id"/>
+    <item name="toolbar_title" type="id"/>
+    <item name="toolbar_subtitle" type="id"/>
+    
+    <!-- Coordinator Layout IDs -->
+    <item name="coordinator" type="id"/>
+    <item name="app_bar" type="id"/>
+    <item name="collapsing_toolbar" type="id"/>
+    
+    <!-- ViewPager IDs -->
+    <item name="view_pager" type="id"/>
+    <item name="pager_indicator" type="id"/>
+    
+    <!-- Spinner IDs -->
+    <item name="spinner_sort" type="id"/>
+    <item name="spinner_filter" type="id"/>
+    <item name="spinner_language" type="id"/>
+    
+    <!-- Switch IDs -->
+    <item name="switch_notifications" type="id"/>
+    <item name="switch_auto_clean" type="id"/>
+    <item name="switch_dark_mode" type="id"/>
+    
+    <!-- Slider IDs -->
+    <item name="slider_threshold" type="id"/>
+    <item name="slider_interval" type="id"/>
+    <item name="slider_transparency" type="id"/>
+    
+    <!-- Date Picker IDs -->
+    <item name="date_picker_start" type="id"/>
+    <item name="date_picker_end" type="id"/>
+    <item name="time_picker" type="id"/>
+    
+    <!-- Chart IDs -->
+    <item name="chart_pie" type="id"/>
+    <item name="chart_bar" type="id"/>
+    <item name="chart_line" type="id"/>
+    <item name="chart_heatmap" type="id"/>
+</resources>
