@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Styles -->
+    
+    <!-- Base App Theme - Dark -->
+    <style name="Theme.StorageDetective" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Material3 Attributes -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorSecondaryVariant">@color/dark_secondary_variant</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorError">@color/dark_error</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <item name="colorOnSecondary">@color/dark_on_secondary</item>
+        <item name="colorOnSurface">@color/dark_on_surface</item>
+        <item name="colorOnBackground">@color/dark_on_background</item>
+        <item name="colorOnError">@color/dark_on_error</item>
+        
+        <!-- Typography -->
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        
+        <!-- Shape -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent</item>
+    </style>
+    
+    <!-- Dark Theme (explicit) -->
+    <style name="Theme.StorageDetective.Dark" parent="Theme.StorageDetective">
+        <!-- Already inherits from the base theme which is dark in night mode -->
+    </style>
+    
+    <!-- AMOLED Theme -->
+    <style name="Theme.StorageDetective.Amoled" parent="Theme.StorageDetective.Dark">
+        <item name="android:windowBackground">@color/amoled_background</item>
+        <item name="colorSurface">@color/amoled_surface</item>
+        <item name="colorBackground">@color/amoled_background</item>
+    </style>
+    
+    <!-- Shape Styles (same as light) -->
+    <style name="ShapeAppearance.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Widget.StorageDetective.Button" parent="Widget.Material3.Button">
+        <item name="android:textAppearance">@style/TextAppearance.StorageDetective.Button</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="Widget.StorageDetective.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.StorageDetective.Button</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="Widget.StorageDetective.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.StorageDetective.Button</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="Widget.StorageDetective.Card" parent="Widget.Material3.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Dialog Styles -->
+    <style name="Theme.StorageDetective.Dialog" parent="Theme.Material3.Dark.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width</item>
+    </style>
+    
+    <!-- TextAppearance -->
+    <style name="TextAppearance.StorageDetective" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    
+    <style name="TextAppearance.StorageDetective.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    
+    <style name="TextAppearance.StorageDetective.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    
+    <style name="TextAppearance.StorageDetective.Headline" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    
+    <!-- Toolbar Styles -->
+    <style name="Widget.StorageDetective.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:elevation">4dp</item>
+        <item name="titleTextAppearance">@style/TextAppearance.StorageDetective.Title</item>
+    </style>
+    
+    <!-- Bottom Navigation Styles -->
+    <style name="Widget.StorageDetective.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:elevation">8dp</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+    </style>
+    
+    <!-- Tab Layout Styles -->
+    <style name="Widget.StorageDetective.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicatorColor">?attr/colorPrimary</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">?attr/colorPrimary</item>
+        <item name="tabTextColor">?attr/colorOnSurface</item>
+        <item name="tabRippleColor">@color/ripple_color_dark</item>
+    </style>
+    
+    <!-- Progress Bar Styles -->
+    <style name="Widget.StorageDetective.ProgressBar" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="android:indeterminateTint">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- Switch Styles -->
+    <style name="Widget.StorageDetective.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="android:thumbTint">?attr/colorPrimary</item>
+        <item name="android:trackTint">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- Checkbox Styles -->
+    <style name="Widget.StorageDetective.Checkbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:buttonTint">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- RadioButton Styles -->
+    <style name="Widget.StorageDetective.RadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:buttonTint">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- TextInputLayout Styles -->
+    <style name="Widget.StorageDetective.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">?attr/colorPrimary</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+    </style>
+</resources>
