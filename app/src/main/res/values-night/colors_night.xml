@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors -->
+    
+    <!-- Brand Colors -->
+    <color name="storage_detective_green">#FF81C784</color>
+    <color name="storage_detective_blue">#FF64B5F6</color>
+    <color name="storage_detective_orange">#FFFFB74D</color>
+    <color name="storage_detective_red">#FFEF5350</color>
+    <color name="storage_detective_purple">#FFBA68C8</color>
+    <color name="storage_detective_teal">#FF4DB6AC</color>
+    
+    <!-- Category Colors -->
+    <color name="images_color">#FF81C784</color>
+    <color name="videos_color">#FF64B5F6</color>
+    <color name="audio_color">#FFFFB74D</color>
+    <color name="documents_color">#FFBA68C8</color>
+    <color name="apps_color">#FFEF5350</color>
+    <color name="archives_color">#FFA1887F</color>
+    <color name="downloads_color">#FF90A4AE</color>
+    <color name="cache_color">#FFBDBDBD</color>
+    <color name="temp_color">#FFE0E0E0</color>
+    <color name="system_color">#FF9E9E9E</color>
+    <color name="other_color">#FFB0BEC5</color>
+    
+    <!-- Storage Usage Colors -->
+    <color name="used_space">#FF81C784</color>
+    <color name="free_space">#FF424242</color>
+    <color name="warning">#FFFFB74D</color>
+    <color name="critical">#FFEF5350</color>
+    <color name="info">#FF64B5F6</color>
+    <color name="success">#FF81C784</color>
+    
+    <!-- Chart Colors -->
+    <color name="chart_1">#FF81C784</color>
+    <color name="chart_2">#FF64B5F6</color>
+    <color name="chart_3">#FFFFB74D</color>
+    <color name="chart_4">#FFBA68C8</color>
+    <color name="chart_5">#FFEF5350</color>
+    <color name="chart_6">#FF4DB6AC</color>
+    <color name="chart_7">#FF9575CD</color>
+    <color name="chart_8">#FFFF8A65</color>
+    
+    <!-- Light Theme (not used in night) -->
+    <color name="light_primary">#FF4CAF50</color>
+    <color name="light_primary_variant">#FF388E3C</color>
+    <color name="light_secondary">#FF2196F3</color>
+    <color name="light_secondary_variant">#FF1976D2</color>
+    <color name="light_background">#FFF5F5F5</color>
+    <color name="light_surface">#FFFFFFFF</color>
+    <color name="light_error">#FFB00020</color>
+    <color name="light_on_primary">#FFFFFFFF</color>
+    <color name="light_on_secondary">#FFFFFFFF</color>
+    <color name="light_on_background">#FF000000</color>
+    <color name="light_on_surface">#FF000000</color>
+    <color name="light_on_error">#FFFFFFFF</color>
+    
+    <!-- Dark Theme -->
+    <color name="dark_primary">#FF81C784</color>
+    <color name="dark_primary_variant">#FF66BB6A</color>
+    <color name="dark_secondary">#FF64B5F6</color>
+    <color name="dark_secondary_variant">#FF42A5F5</color>
+    <color name="dark_background">#FF121212</color>
+    <color name="dark_surface">#FF1E1E1E</color>
+    <color name="dark_error">#FFEF5350</color>
+    <color name="dark_on_primary">#FF000000</color>
+    <color name="dark_on_secondary">#FF000000</color>
+    <color name="dark_on_background">#FFFFFFFF</color>
+    <color name="dark_on_surface">#FFFFFFFF</color>
+    <color name="dark_on_error">#FF000000</color>
+    
+    <!-- Amoled Theme -->
+    <color name="amoled_background">#FF000000</color>
+    <color name="amoled_surface">#FF0A0A0A</color>
+    
+    <!-- Status Colors -->
+    <color name="status_excellent">#FF81C784</color>
+    <color name="status_good">#FFAED581</color>
+    <color name="status_fair">#FFFFB74D</color>
+    <color name="status_poor">#FFFF8A65</color>
+    <color name="status_critical">#FFEF5350</color>
+    
+    <!-- Material Colors (Dark) -->
+    <color name="material_red">#FFEF5350</color>
+    <color name="material_pink">#FFEC407A</color>
+    <color name="material_purple">#FFBA68C8</color>
+    <color name="material_deep_purple">#FF9575CD</color>
+    <color name="material_indigo">#FF7986CB</color>
+    <color name="material_blue">#FF64B5F6</color>
+    <color name="material_light_blue">#FF4FC3F7</color>
+    <color name="material_cyan">#FF4DD0E1</color>
+    <color name="material_teal">#FF4DB6AC</color>
+    <color name="material_green">#FF81C784</color>
+    <color name="material_light_green">#FFAED581</color>
+    <color name="material_lime">#FFDCE775</color>
+    <color name="material_yellow">#FFFFF176</color>
+    <color name="material_amber">#FFFFD54F</color>
+    <color name="material_orange">#FFFFB74D</color>
+    <color name="material_deep_orange">#FFFF8A65</color>
+    <color name="material_brown">#FFA1887F</color>
+    <color name="material_grey">#FFE0E0E0</color>
+    <color name="material_blue_grey">#FF90A4AE</color>
+</resources>
