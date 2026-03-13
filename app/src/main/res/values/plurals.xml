@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- File counts -->
+    <plurals name="file_count">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    
+    <plurals name="folder_count">
+        <item quantity="one">%d folder</item>
+        <item quantity="other">%d folders</item>
+    </plurals>
+    
+    <plurals name="app_count">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    
+    <!-- Image counts -->
+    <plurals name="image_count">
+        <item quantity="one">%d image</item>
+        <item quantity="other">%d images</item>
+    </plurals>
+    
+    <plurals name="video_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    
+    <plurals name="audio_count">
+        <item quantity="one">%d audio file</item>
+        <item quantity="other">%d audio files</item>
+    </plurals>
+    
+    <plurals name="document_count">
+        <item quantity="one">%d document</item>
+        <item quantity="other">%d documents</item>
+    </plurals>
+    
+    <!-- Duplicate counts -->
+    <plurals name="duplicate_group_count">
+        <item quantity="one">%d duplicate group</item>
+        <item quantity="other">%d duplicate groups</item>
+    </plurals>
+    
+    <plurals name="duplicate_file_count">
+        <item quantity="one">%d duplicate file</item>
+        <item quantity="other">%d duplicate files</item>
+    </plurals>
+    
+    <!-- Time units -->
+    <plurals name="seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    
+    <plurals name="weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    
+    <plurals name="months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    
+    <plurals name="years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    
+    <!-- Storage units -->
+    <plurals name="bytes">
+        <item quantity="one">%d byte</item>
+        <item quantity="other">%d bytes</item>
+    </plurals>
+    
+    <plurals name="kilobytes">
+        <item quantity="one">%d kilobyte</item>
+        <item quantity="other">%d kilobytes</item>
+    </plurals>
+    
+    <plurals name="megabytes">
+        <item quantity="one">%d megabyte</item>
+        <item quantity="other">%d megabytes</item>
+    </plurals>
+    
+    <plurals name="gigabytes">
+        <item quantity="one">%d gigabyte</item>
+        <item quantity="other">%d gigabytes</item>
+    </plurals>
+    
+    <plurals name="terabytes">
+        <item quantity="one">%d terabyte</item>
+        <item quantity="other">%d terabytes</item>
+    </plurals>
+    
+    <!-- Event counts -->
+    <plurals name="event_count">
+        <item quantity="one">%d event</item>
+        <item quantity="other">%d events</item>
+    </plurals>
+    
+    <plurals name="change_count">
+        <item quantity="one">%d change</item>
+        <item quantity="other">%d changes</item>
+    </plurals>
+    
+    <plurals name="addition_count">
+        <item quantity="one">%d addition</item>
+        <item quantity="other">%d additions</item>
+    </plurals>
+    
+    <plurals name="deletion_count">
+        <item quantity="one">%d deletion</item>
+        <item quantity="other">%d deletions</item>
+    </plurals>
+    
+    <!-- Cleanup counts -->
+    <plurals name="cleanup_count">
+        <item quantity="one">%d cleanup</item>
+        <item quantity="other">%d cleanups</item>
+    </plurals>
+    
+    <plurals name="suggestion_count">
+        <item quantity="one">%d suggestion</item>
+        <item quantity="other">%d suggestions</item>
+    </plurals>
+    
+    <!-- Achievement counts -->
+    <plurals name="achievement_count">
+        <item quantity="one">%d achievement</item>
+        <item quantity="other">%d achievements</item>
+    </plurals>
+    
+    <plurals name="badge_count">
+        <item quantity="one">%d badge</item>
+        <item quantity="other">%d badges</item>
+    </plurals>
+    
+    <plurals name="challenge_count">
+        <item quantity="one">%d challenge</item>
+        <item quantity="other">%d challenges</item>
+    </plurals>
+    
+    <plurals name="quest_count">
+        <item quantity="one">%d quest</item>
+        <item quantity="other">%d quests</item>
+    </plurals>
+    
+    <!-- Family counts -->
+    <plurals name="member_count">
+        <item quantity="one">%d member</item>
+        <item quantity="other">%d members</item>
+    </plurals>
+    
+    <plurals name="goal_count">
+        <item quantity="one">%d goal</item>
+        <item quantity="other">%d goals</item>
+    </plurals>
+    
+    <plurals name="activity_count">
+        <item quantity="one">%d activity</item>
+        <item quantity="other">%d activities</item>
+    </plurals>
+    
+    <!-- Backup counts -->
+    <plurals name="backup_count">
+        <item quantity="one">%d backup</item>
+        <item quantity="other">%d backups</item>
+    </plurals>
+    
+    <plurals name="sync_count">
+        <item quantity="one">%d sync</item>
+        <item quantity="other">%d syncs</item>
+    </plurals>
+    
+    <!-- Permission counts -->
+    <plurals name="permission_count">
+        <item quantity="one">%d permission</item>
+        <item quantity="other">%d permissions</item>
+    </plurals>
+    
+    <!-- Notification counts -->
+    <plurals name="notification_count">
+        <item quantity="one">%d notification</item>
+        <item quantity="other">%d notifications</item>
+    </plurals>
+</resources>
