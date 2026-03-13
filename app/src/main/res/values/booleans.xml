@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Feature flags -->
+    <bool name="enable_3d_maps">true</bool>
+    <bool name="enable_time_machine">true</bool>
+    <bool name="enable_gamification">true</bool>
+    <bool name="enable_family_sharing">true</bool>
+    <bool name="enable_ai_predictions">true</bool>
+    <bool name="enable_cloud_backup">true</bool>
+    <bool name="enable_dark_mode">true</bool>
+    <bool name="enable_analytics">true</bool>
+    <bool name="enable_crash_reporting">true</bool>
+    
+    <!-- Default settings -->
+    <bool name="default_scan_on_boot">true</bool>
+    <bool name="default_deep_scan">false</bool>
+    <bool name="default_auto_clean">false</bool>
+    <bool name="default_clean_cache">true</bool>
+    <bool name="default_clean_duplicates">true</bool>
+    <bool name="default_clean_large_files">false</bool>
+    <bool name="default_notifications_enabled">true</bool>
+    <bool name="default_warning_notifications">true</bool>
+    <bool name="default_achievement_notifications">true</bool>
+    <bool name="default_app_lock">false</bool>
+    <bool name="default_biometric_enabled">false</bool>
+    <bool name="default_hide_sensitive">true</bool>
+    <bool name="default_cloud_backup">false</bool>
+    <bool name="default_gamification_enabled">true</bool>
+    <bool name="default_leaderboard_visible">true</bool>
+    <bool name="default_require_confirmation">true</bool>
+    <bool name="default_move_to_trash">true</bool>
+    
+    <!-- UI defaults -->
+    <bool name="default_show_file_extensions">true</bool>
+    <bool name="default_show_hidden_files">false</bool>
+    <bool name="default_show_previews">true</bool>
+    <bool name="default_use_grid_view">true</bool>
+    <bool name="default_animations_enabled">true</bool>
+    <bool name="default_reduce_motion">false</bool>
+    
+    <!-- Scan defaults -->
+    <bool name="default_scan_media">true</bool>
+    <bool name="default_scan_documents">true</bool>
+    <bool name="default_scan_apps">true</bool>
+    <bool name="default_scan_cache">true</bool>
+    <bool name="default_scan_hidden">false</bool>
+    <bool name="default_scan_system">false</bool>
+    <bool name="default_throttle_scan">true</bool>
+    
+    <!-- Cleaner defaults -->
+    <bool name="default_clean_temp">true</bool>
+    <bool name="default_clean_apks">true</bool>
+    <bool name="default_clean_thumbnails">true</bool>
+    <bool name="default_clean_old_files">false</bool>
+    <bool name="default_smart_clean">true</bool>
+    <bool name="default_learn_behavior">true</bool>
+    <bool name="default_suggest_optimizations">true</bool>
+    
+    <!-- Backup defaults -->
+    <bool name="default_backup_on_wifi">true</bool>
+    <bool name="default_backup_on_charge">true</bool>
+    <bool name="default_backup_compression">true</bool>
+    <bool name="default_backup_encryption">true</bool>
+    <bool name="default_auto_sync">true</bool>
+    
+    <!-- Notification defaults -->
+    <bool name="default_notification_vibration">true</bool>
+    <bool name="default_notification_lights">true</bool>
+    <bool name="default_critical_alerts">true</bool>
+    <bool name="default_summary_notifications">true</bool>
+    <bool name="default_daily_digest">false</bool>
+    
+    <!-- Privacy defaults -->
+    <bool name="default_share_analytics">true</bool>
+    <bool name="default_share_crash_reports">true</bool>
+    <bool name="default_personalized_ads">false</bool>
+    <bool name="default_incognito_mode">false</bool>
+    <bool name="default_auto_delete_history">false</bool>
+    
+    <!-- Debug flags -->
+    <bool name="debug_mode">false</bool>
+    <bool name="verbose_logging">false</bool>
+    <bool name="mock_data">false</bool>
+    
+    <!-- Performance flags -->
+    <bool name="use_hardware_acceleration">true</bool>
+    <bool name="use_background_threads">true</bool>
+    <bool name="use_indexing">true</bool>
+    <bool name="cache_thumbnails">true</bool>
+    <bool name="reduce_memory_usage">false</bool>
+    
+    <!-- Compatibility flags -->
+    <bool name="use_legacy_storage">false</bool>
+    <bool name="scoped_storage_compatible">true</bool>
+    
+    <!-- Testing flags -->
+    <bool name="skip_permissions">false</bool>
+    <bool name="mock_scanner">false</bool>
+    <bool name="mock_cleaner">false</bool>
+</resources>
