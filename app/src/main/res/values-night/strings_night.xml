@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name - Same as light theme -->
+    <string name="app_name">Storage Detective</string>
+    <string name="app_name_short">StorageDetective</string>
+    
+    <!-- Common - Same as light theme -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="retry">Retry</string>
+    <string name="refresh">Refresh</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="success">Success</string>
+    <string name="info">Info</string>
+    
+    <!-- Navigation - Same as light theme -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_timeline">Timeline</string>
+    <string name="nav_cleaner">Cleaner</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_backup">Backup</string>
+    <string name="nav_family">Family</string>
+    <string name="nav_game">Game</string>
+    
+    <!-- Dashboard - Same as light theme -->
+    <string name="dashboard_title">Storage Overview</string>
+    <string name="dashboard_storage_used">Used</string>
+    <string name="dashboard_storage_free">Free</string>
+    <string name="dashboard_storage_total">Total</string>
+    <string name="dashboard_today_changes">Today\'s Changes</string>
+    <string name="dashboard_biggest_consumers">Biggest Space Consumers</string>
+    <string name="dashboard_recent_activity">Recent Activity</string>
+    <string name="dashboard_quick_actions">Quick Actions</string>
+    <string name="dashboard_scan_now">Scan Now</string>
+    <string name="dashboard_clean_now">Clean Now</string>
+    <string name="dashboard_backup_now">Backup Now</string>
+    <string name="dashboard_view_all">View All</string>
+    
+    <!-- Storage - Same as light theme -->
+    <string name="storage_total">Total Storage</string>
+    <string name="storage_used">Used Space</string>
+    <string name="storage_free">Free Space</string>
+    <string name="storage_other">Other</string>
+    <string name="storage_system">System</string>
+    <string name="storage_cache">Cache</string>
+    <string name="storage_temp">Temporary</string>
+    <string name="storage_downloads">Downloads</string>
+    
+    <!-- Categories - Same as light theme -->
+    <string name="category_images">Images</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_documents">Documents</string>
+    <string name="category_apps">Applications</string>
+    <string name="category_archives">Archives</string>
+    <string name="category_downloads">Downloads</string>
+    <string name="category_cache">Cache</string>
+    <string name="category_temp">Temporary</string>
+    <string name="category_system">System</string>
+    <string name="category_other">Other</string>
+    
+    <!-- Apps - Same as light theme -->
+    <string name="apps_title">Applications</string>
+    <string name="apps_total">Total Apps</string>
+    <string name="apps_user">User Apps</string>
+    <string name="apps_system">System Apps</string>
+    <string name="apps_enabled">Enabled</string>
+    <string name="apps_disabled">Disabled</string>
+    <string name="apps_search_hint">Search apps...</string>
+    <string name="apps_sort_name">Name</string>
+    <string name="apps_sort_size">Size</string>
+    <string name="apps_sort_date">Date</string>
+    <string name="apps_sort_cache">Cache</string>
+    <string name="apps_filter_all">All Apps</string>
+    <string name="apps_filter_user">User Apps</string>
+    <string name="apps_filter_system">System Apps</string>
+    <string name="apps_filter_enabled">Enabled</string>
+    <string name="apps_filter_disabled">Disabled</string>
+    <string name="apps_details">App Details</string>
+    <string name="apps_permissions">Permissions</string>
+    <string name="apps_activities">Activities</string>
+    <string name="apps_services">Services</string>
+    <string name="apps_providers">Providers</string>
+    <string name="apps_receivers">Receivers</string>
+    <string name="apps_clear_cache">Clear Cache</string>
+    <string name="apps_clear_data">Clear Data</string>
+    <string name="apps_uninstall">Uninstall</string>
+    <string name="apps_backup">Backup</string>
+    <string name="apps_restore">Restore</string>
+    
+    <!-- Timeline - Same as light theme -->
+    <string name="timeline_title">Storage Timeline</string>
+    <string name="timeline_today">Today</string>
+    <string name="timeline_yesterday">Yesterday</string>
+    <string name="timeline_this_week">This Week</string>
+    <string name="timeline_this_month">This Month</string>
+    <string name="timeline_older">Older</string>
+    <string name="timeline_events">Events</string>
+    <string name="timeline_added">Added</string>
+    <string name="timeline_deleted">Deleted</string>
+    <string name="timeline_modified">Modified</string>
+    <string name="timeline_app_installed">App Installed</string>
+    <string name="timeline_app_uninstalled">App Uninstalled</string>
+    <string name="timeline_app_updated">App Updated</string>
+    <string name="timeline_cache_cleaned">Cache Cleaned</string>
+    <string name="timeline_duplicates_removed">Duplicates Removed</string>
+    <string name="timeline_backup_created">Backup Created</string>
+    <string name="timeline_backup_restored">Backup Restored</string>
+    
+    <!-- Cleaner - Same as light theme -->
+    <string name="cleaner_title">Storage Cleaner</string>
+    <string name="cleaner_suggestions">Suggestions</string>
+    <string name="cleaner_duplicates">Duplicate Files</string>
+    <string name="cleaner_large_files">Large Files</string>
+    <string name="cleaner_old_files">Old Files</string>
+    <string name="cleaner_cache">Cache Files</string>
+    <string name="cleaner_temp">Temporary Files</string>
+    <string name="cleaner_apks">APK Files</string>
+    <string name="cleaner_downloads">Downloads</string>
+    <string name="cleaner_empty_folders">Empty Folders</string>
+    <string name="cleaner_smart_clean">Smart Clean</string>
+    <string name="cleaner_auto_clean">Auto Clean</string>
+    <string name="cleaner_undo">Undo</string>
+    <string name="cleaner_history">Cleanup History</string>
+    <string name="cleaner_stats">Cleanup Stats</string>
+    <string name="cleaner_analyze">Analyze</string>
+    <string name="cleaner_clean_now">Clean Now</string>
+    <string name="cleaner_select_all">Select All</string>
+    <string name="cleaner_deselect_all">Deselect All</string>
+    <string name="cleaner_keep_one">Keep One</string>
+    
+    <!-- Settings - Same as light theme -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_amoled">AMOLED Dark</string>
+    <string name="settings_accent_color">Accent Color</string>
+    <string name="settings_font_size">Font Size</string>
+    <string name="settings_font_small">Small</string>
+    <string name="settings_font_medium">Medium</string>
+    <string name="settings_font_large">Large</string>
+    <string name="settings_font_xlarge">Extra Large</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_storage">Storage Settings</string>
+    <string name="settings_scan_on_boot">Scan on Boot</string>
+    <string name="settings_scan_interval">Scan Interval</string>
+    <string name="settings_excluded_folders">Excluded Folders</string>
+    <string name="settings_deep_scan">Deep Scan</string>
+    <string name="settings_cleaner">Cleaner Settings</string>
+    <string name="settings_auto_clean">Auto Clean</string>
+    <string name="settings_clean_threshold">Cleanup Threshold</string>
+    <string name="settings_undo_history">Undo History</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_enable">Enable Notifications</string>
+    <string name="settings_notifications_warnings">Storage Warnings</string>
+    <string name="settings_notifications_achievements">Achievements</string>
+    <string name="settings_notifications_tips">Daily Tips</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_app_lock">App Lock</string>
+    <string name="settings_biometric">Biometric Authentication</string>
+    <string name="settings_hide_sensitive">Hide Sensitive Content</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_cloud_backup">Cloud Backup</string>
+    <string name="settings_backup_account">Backup Account</string>
+    <string name="settings_backup_frequency">Backup Frequency</string>
+    <string name="settings_backup_wifi">Only on Wi-Fi</string>
+    <string name="settings_backup_charging">Only while charging</string>
+    <string name="settings_gamification">Gamification</string>
+    <string name="settings_gamification_enable">Enable Gamification</string>
+    <string name="settings_username">Username</string>
+    <string name="settings_leaderboard">Leaderboard Visibility</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_feedback">Send Feedback</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_rate">Rate App</string>
+    <string name="settings_share">Share App</string>
+    <string name="settings_reset">Reset Settings</string>
+    <string name="settings_clear_data">Clear All Data</string>
+    <string name="settings_export">Export Data</string>
+    <string name="settings_import">Import Data</string>
+</resources>
