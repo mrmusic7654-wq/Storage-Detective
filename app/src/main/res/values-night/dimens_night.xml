@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- All dimensions are the same as light theme -->
+    <!-- Only colors change in night mode, not dimensions -->
+    
+    <!-- Spacing -->
+    <dimen name="spacing_none">0dp</dimen>
+    <dimen name="spacing_extra_small">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_extra_large">32dp</dimen>
+    <dimen name="spacing_huge">48dp</dimen>
+    <dimen name="spacing_massive">64dp</dimen>
+    
+    <!-- Corner Radius -->
+    <dimen name="corner_none">0dp</dimen>
+    <dimen name="corner_extra_small">2dp</dimen>
+    <dimen name="corner_small">4dp</dimen>
+    <dimen name="corner_medium">8dp</dimen>
+    <dimen name="corner_large">12dp</dimen>
+    <dimen name="corner_extra_large">16dp</dimen>
+    <dimen name="corner_round">24dp</dimen>
+    <dimen name="corner_circle">999dp</dimen>
+    
+    <!-- Icon Sizes -->
+    <dimen name="icon_extra_small">12dp</dimen>
+    <dimen name="icon_small">16dp</dimen>
+    <dimen name="icon_medium">24dp</dimen>
+    <dimen name="icon_large">32dp</dimen>
+    <dimen name="icon_extra_large">48dp</dimen>
+    <dimen name="icon_huge">64dp</dimen>
+    
+    <!-- Font Sizes -->
+    <dimen name="font_extra_small">10sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_medium">14sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_extra_large">18sp</dimen>
+    <dimen name="font_title_small">20sp</dimen>
+    <dimen name="font_title_medium">24sp</dimen>
+    <dimen name="font_title_large">28sp</dimen>
+    <dimen name="font_headline_small">32sp</dimen>
+    <dimen name="font_headline_medium">36sp</dimen>
+    <dimen name="font_headline_large">40sp</dimen>
+    
+    <!-- Elevation -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_tiny">1dp</dimen>
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_extra_large">12dp</dimen>
+    <dimen name="elevation_huge">16dp</dimen>
+    
+    <!-- Component Sizes -->
+    <dimen name="button_height_small">32dp</dimen>
+    <dimen name="button_height_medium">40dp</dimen>
+    <dimen name="button_height_large">48dp</dimen>
+    <dimen name="button_height_extra_large">56dp</dimen>
+    
+    <dimen name="input_height_small">40dp</dimen>
+    <dimen name="input_height_medium">48dp</dimen>
+    <dimen name="input_height_large">56dp</dimen>
+    
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="badge_size">20dp</dimen>
+    <dimen name="progress_bar_height">4dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    
+    <!-- Card Dimensions -->
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_pressed">4dp</dimen>
+    
+    <!-- Chart Dimensions -->
+    <dimen name="chart_height">200dp</dimen>
+    <dimen name="chart_width">300dp</dimen>
+    <dimen name="chart_stroke_width">2dp</dimen>
+    <dimen name="chart_point_radius">4dp</dimen>
+    
+    <!-- Storage Bar -->
+    <dimen name="storage_bar_height">8dp</dimen>
+    <dimen name="storage_bar_corner">4dp</dimen>
+    
+    <!-- App Icons -->
+    <dimen name="app_icon_size">48dp</dimen>
+    <dimen name="app_icon_corner">12dp</dimen>
+    
+    <!-- Timeline -->
+    <dimen name="timeline_dot_size">12dp</dimen>
+    <dimen name="timeline_line_width">2dp</dimen>
+    <dimen name="timeline_item_spacing">12dp</dimen>
+    
+    <!-- Dialog -->
+    <dimen name="dialog_min_width">280dp</dimen>
+    <dimen name="dialog_max_width">560dp</dimen>
+    <dimen name="dialog_corner">16dp</dimen>
+    
+    <!-- Bottom Sheet -->
+    <dimen name="bottom_sheet_peek_height">100dp</dimen>
+    <dimen name="bottom_sheet_corner">16dp</dimen>
+    
+    <!-- Navigation -->
+    <dimen name="nav_bar_height">56dp</dimen>
+    <dimen name="nav_rail_width">72dp</dimen>
+    <dimen name="nav_rail_icon_size">24dp</dimen>
+    
+    <!-- Status Bar -->
+    <dimen name="status_bar_height">24dp</dimen>
+    
+    <!-- Toolbar -->
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    
+    <!-- Fab -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    
+    <!-- Progress Indicators -->
+    <dimen name="progress_indicator_size">48dp</dimen>
+    <dimen name="progress_indicator_stroke">4dp</dimen>
+    
+    <!-- Grid -->
+    <dimen name="grid_item_min_width">150dp</dimen>
+    <dimen name="grid_spacing">8dp</dimen>
+    
+    <!-- List -->
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_divider_height">1dp</dimen>
+    
+    <!-- Search Bar -->
+    <dimen name="search_bar_height">56dp</dimen>
+    <dimen name="search_bar_elevation">2dp</dimen>
+    <dimen name="search_bar_corner">28dp</dimen>
+    
+    <!-- Tab -->
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_indicator_height">2dp</dimen>
+    
+    <!-- Slider -->
+    <dimen name="slider_thumb_size">20dp</dimen>
+    <dimen name="slider_track_height">4dp</dimen>
+    
+    <!-- Switch -->
+    <dimen name="switch_thumb_size">16dp</dimen>
+    <dimen name="switch_track_width">36dp</dimen>
+    <dimen name="switch_track_height">20dp</dimen>
+    
+    <!-- Checkbox -->
+    <dimen name="checkbox_size">18dp</dimen>
+    <dimen name="checkbox_stroke">2dp</dimen>
+    
+    <!-- Radio Button -->
+    <dimen name="radio_size">18dp</dimen>
+    <dimen name="radio_stroke">2dp</dimen>
+    <dimen name="radio_dot_size">8dp</dimen>
+</resources>
