@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for Storage Detective -->
+    <declare-styleable name="StorageChart">
+        <attr name="chartType" format="enum">
+            <enum name="pie" value="0"/>
+            <enum name="donut" value="1"/>
+            <enum name="bar" value="2"/>
+            <enum name="line" value="3"/>
+        </attr>
+        <attr name="showLabels" format="boolean"/>
+        <attr name="showLegend" format="boolean"/>
+        <attr name="animationEnabled" format="boolean"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="StorageBar">
+        <attr name="barColor" format="color"/>
+        <attr name="trackColor" format="color"/>
+        <attr name="barHeight" format="dimension"/>
+        <attr name="showPercentage" format="boolean"/>
+        <attr name="roundedCorners" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="TimelineView">
+        <attr name="timelineColor" format="color"/>
+        <attr name="pointColor" format="color"/>
+        <attr name="gridColor" format="color"/>
+        <attr name="showGrid" format="boolean"/>
+        <attr name="showPoints" format="boolean"/>
+        <attr name="smoothLine" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CategoryChip">
+        <attr name="chipColor" format="color"/>
+        <attr name="chipTextColor" format="color"/>
+        <attr name="chipIcon" format="reference"/>
+        <attr name="showCount" format="boolean"/>
+        <attr name="count" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="StorageCard">
+        <attr name="cardElevation" format="dimension"/>
+        <attr name="cardCornerRadius" format="dimension"/>
+        <attr name="cardBackgroundColor" format="color"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="ProgressButton">
+        <attr name="buttonText" format="string"/>
+        <attr name="buttonIcon" format="reference"/>
+        <attr name="showProgress" format="boolean"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="buttonColor" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="AnimatedNumber">
+        <attr name="numberValue" format="float"/>
+        <attr name="numberFormat" format="string"/>
+        <attr name="numberColor" format="color"/>
+        <attr name="numberSize" format="dimension"/>
+        <attr name="animationDuration" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="StorageMeter">
+        <attr name="meterMax" format="integer"/>
+        <attr name="meterValue" format="integer"/>
+        <attr name="meterColor" format="color"/>
+        <attr name="meterTrackColor" format="color"/>
+        <attr name="meterSize" format="dimension"/>
+        <attr name="meterThickness" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="FilterChipGroup">
+        <attr name="chipSpacing" format="dimension"/>
+        <attr name="singleSelection" format="boolean"/>
+        <attr name="chipStyle" format="reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="SearchBar">
+        <attr name="searchHint" format="string"/>
+        <attr name="searchIcon" format="reference"/>
+        <attr name="clearIcon" format="reference"/>
+        <attr name="searchBackground" format="color"/>
+        <attr name="searchElevation" format="dimension"/>
+    </declare-styleable>
+    
+    <!-- Custom colors -->
+    <attr name="storagePrimary" format="color"/>
+    <attr name="storageSecondary" format="color"/>
+    <attr name="storageTertiary" format="color"/>
+    <attr name="storageSuccess" format="color"/>
+    <attr name="storageWarning" format="color"/>
+    <attr name="storageError" format="color"/>
+    <attr name="storageInfo" format="color"/>
+    
+    <!-- Category colors -->
+    <attr name="categoryImages" format="color"/>
+    <attr name="categoryVideos" format="color"/>
+    <attr name="categoryAudio" format="color"/>
+    <attr name="categoryDocuments" format="color"/>
+    <attr name="categoryApps" format="color"/>
+    <attr name="categoryArchives" format="color"/>
+    <attr name="categoryDownloads" format="color"/>
+    <attr name="categoryCache" format="color"/>
+    <attr name="categoryTemp" format="color"/>
+    <attr name="categorySystem" format="color"/>
+    <attr name="categoryOther" format="color"/>
+    
+    <!-- Status colors -->
+    <attr name="statusExcellent" format="color"/>
+    <attr name="statusGood" format="color"/>
+    <attr name="statusFair" format="color"/>
+    <attr name="statusPoor" format="color"/>
+    <attr name="statusCritical" format="color"/>
+    
+    <!-- Chart colors -->
+    <attr name="chartColor1" format="color"/>
+    <attr name="chartColor2" format="color"/>
+    <attr name="chartColor3" format="color"/>
+    <attr name="chartColor4" format="color"/>
+    <attr name="chartColor5" format="color"/>
+    <attr name="chartColor6" format="color"/>
+    <attr name="chartColor7" format="color"/>
+    <attr name="chartColor8" format="color"/>
+    
+    <!-- Timeline colors -->
+    <attr name="timelineAdded" format="color"/>
+    <attr name="timelineDeleted" format="color"/>
+    <attr name="timelineModified" format="color"/>
+    <attr name="timelineAppInstall" format="color"/>
+    <attr name="timelineAppUninstall" format="color"/>
+    <attr name="timelineBackup" format="color"/>
+    <attr name="timelineCleanup" format="color"/>
+    
+    <!-- Custom dimensions -->
+    <attr name="chartHeight" format="dimension"/>
+    <attr name="timelineHeight" format="dimension"/>
+    <attr name="cardMinWidth" format="dimension"/>
+    <attr name="iconSize" format="dimension"/>
+    
+    <!-- Custom booleans -->
+    <attr name="enableAnimations" format="boolean"/>
+    <attr name="enableHaptics" format="boolean"/>
+    <attr name="enableSounds" format="boolean"/>
+    
+    <!-- Custom integers -->
+    <attr name="maxSuggestions" format="integer"/>
+    <attr name="maxHistoryItems" format="integer"/>
+    <attr name="animationDuration" format="integer"/>
+    
+    <!-- Custom strings -->
+    <attr name="emptyMessage" format="string"/>
+    <attr name="errorMessage" format="string"/>
+    <attr name="loadingMessage" format="string"/>
+    
+    <!-- Theme attributes -->
+    <attr name="storageChartStyle" format="reference"/>
+    <attr name="storageBarStyle" format="reference"/>
+    <attr name="timelineStyle" format="reference"/>
+    <attr name="categoryChipStyle" format="reference"/>
+    <attr name="storageCardStyle" format="reference"/>
+</resources>
