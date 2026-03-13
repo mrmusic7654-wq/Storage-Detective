@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme Options -->
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System</item>
+        <item>AMOLED</item>
+    </string-array>
+    
+    <!-- Accent Color Options -->
+    <string-array name="accent_color_options">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Teal</item>
+    </string-array>
+    
+    <!-- Font Size Options -->
+    <string-array name="font_size_options">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+    
+    <!-- Language Options -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+    </string-array>
+    
+    <!-- Language Codes -->
+    <string-array name="language_codes">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>zh</item>
+    </string-array>
+    
+    <!-- Scan Frequency Options -->
+    <string-array name="scan_frequency_options">
+        <item>Every hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 12 hours</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+    
+    <!-- Cleanup Frequency Options -->
+    <string-array name="cleanup_frequency_options">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Manual only</item>
+    </string-array>
+    
+    <!-- Backup Frequency Options -->
+    <string-array name="backup_frequency_options">
+        <item>Daily</item>
+        <item>Every 3 days</item>
+        <item>Weekly</item>
+        <item>Every 2 weeks</item>
+        <item>Monthly</item>
+    </string-array>
+    
+    <!-- Days of Week -->
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    
+    <!-- Time Options -->
+    <string-array name="time_options">
+        <item>12:00 AM</item>
+        <item>1:00 AM</item>
+        <item>2:00 AM</item>
+        <item>3:00 AM</item>
+        <item>4:00 AM</item>
+        <item>5:00 AM</item>
+        <item>6:00 AM</item>
+        <item>7:00 AM</item>
+        <item>8:00 AM</item>
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+        <item>6:00 PM</item>
+        <item>7:00 PM</item>
+        <item>8:00 PM</item>
+        <item>9:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+    </string-array>
+    
+    <!-- Auto-lock Timeout Options -->
+    <string-array name="auto_lock_timeout_options">
+        <item>Immediately</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    
+    <!-- Auto-lock Timeout Values (seconds) -->
+    <integer-array name="auto_lock_timeout_values">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1800</item>
+    </integer-array>
+    
+    <!-- File Size Thresholds -->
+    <string-array name="file_size_thresholds">
+        <item>10 MB</item>
+        <item>50 MB</item>
+        <item>100 MB</item>
+        <item>500 MB</item>
+        <item>1 GB</item>
+        <item>5 GB</item>
+    </string-array>
+    
+    <!-- File Age Thresholds -->
+    <string-array name="file_age_thresholds">
+        <item>30 days</item>
+        <item>60 days</item>
+        <item>90 days</item>
+        <item>6 months</item>
+        <item>1 year</item>
+        <item>2 years</item>
+    </string-array>
+    
+    <!-- Notification Sound Options -->
+    <string-array name="notification_sound_options">
+        <item>Default</item>
+        <item>Chime</item>
+        <item>Bell</item>
+        <item>Digital</item>
+        <item>Minimal</item>
+        <item>None</item>
+    </string-array>
+    
+    <!-- Widget Size Options -->
+    <string-array name="widget_size_options">
+        <item>Small (1x1)</item>
+        <item>Medium (2x2)</item>
+        <item>Large (4x2)</item>
+        <item>Extra Large (4x4)</item>
+    </string-array>
+    
+    <!-- Widget Theme Options -->
+    <string-array name="widget_theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System</item>
+        <item>Dynamic</item>
+    </string-array>
+    
+    <!-- Export Format Options -->
+    <string-array name="export_format_options">
+        <item>JSON</item>
+        <item>CSV</item>
+        <item>PDF</item>
+        <item>XML</item>
+    </string-array>
+    
+    <!-- Challenge Types -->
+    <string-array name="challenge_types">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Special</item>
+    </string-array>
+    
+    <!-- Difficulty Levels -->
+    <string-array name="difficulty_levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Expert</item>
+    </string-array>
+    
+    <!-- Achievement Rarity -->
+    <string-array name="achievement_rarity">
+        <item>Common</item>
+        <item>Uncommon</item>
+        <item>Rare</item>
+        <item>Epic</item>
+        <item>Legendary</item>
+    </string-array>
+</resources>
